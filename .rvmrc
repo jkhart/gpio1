@@ -1,1 +1,2 @@
 rvm gemset use gpio1
+rvm_trust_rvmrcs_flag=1

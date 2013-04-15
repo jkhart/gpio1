@@ -12,3 +12,8 @@ after :pin => 23, :goes => :high do
 end
 
 PiPiper.wait
+
+loop do
+  sleep(4)
+  puts rand(1000)
+end
